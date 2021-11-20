@@ -1,6 +1,6 @@
 # BHDS-Coursework
 BHDS Cousework Assignment
-*Please read the files 
+*Please read the files: 'C2769C_Coursework_Final' and 'C2769C_Coursework1'
 This coursework has 2 sections - coursework 1 as denoted in the CW1 folder and coursework final as denoted in the CWF folder
 
 Coursework 1 involves identifying consensus sequence from a list of DNA sequences requested by user. The calculation of the consensus sequence is based on weight table, which is the percentage of number of occurrences of a DNA base across the DNA sequences input. The corresponding weights of the consensus DNA sequence is summed up to produce 
