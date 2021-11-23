@@ -4,9 +4,9 @@ in i +=1 """
 
 dna_list=[]
 i=0
-no_of_seq = int(raw_input("No. of sequences: "))
+no_of_seq = int(input("No. of sequences: "))
 for i in range(1,no_of_seq+1):
-    dna_list.append(raw_input("DNA seq" + str(i) + " : "))
+    dna_list.append(input("DNA seq" + str(i) + " : "))
     i += 1
 #Separate each individual bases in dna_list if not the bases are conjoined
 dna_list = [list(sub) for sub in dna_list]
@@ -149,7 +149,7 @@ for index, x in enumerate(matchlist):
 
 i = 0
 new_dna_list = []
-new_dna_list.append(raw_input("New DNA seq: "))
+new_dna_list.append(input("New DNA seq: "))
 new_dna_list = [list(sub) for sub in new_dna_list]
 print(new_dna_list)
 
